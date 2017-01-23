@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HIEService", "HIEService\HIEService.csproj", "{D773FF2F-092F-4A57-AC05-CA1147D064D5}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HIEServiceDB", "HIEMockDB\HIEServiceDB.sqlproj", "{3101210B-A9EC-4B44-AA60-DEF6EC9D825E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D773FF2F-092F-4A57-AC05-CA1147D064D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D773FF2F-092F-4A57-AC05-CA1147D064D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D773FF2F-092F-4A57-AC05-CA1147D064D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D773FF2F-092F-4A57-AC05-CA1147D064D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3101210B-A9EC-4B44-AA60-DEF6EC9D825E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3101210B-A9EC-4B44-AA60-DEF6EC9D825E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3101210B-A9EC-4B44-AA60-DEF6EC9D825E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3101210B-A9EC-4B44-AA60-DEF6EC9D825E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3101210B-A9EC-4B44-AA60-DEF6EC9D825E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3101210B-A9EC-4B44-AA60-DEF6EC9D825E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

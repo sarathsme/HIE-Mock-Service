@@ -1,0 +1,21 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+      <a:Action env:mustUnderstand="1" xmlns:a="http://www.w3.org/2005/08/addressing">urn:ihe:iti:2007:RegistryStoredQueryResponse</a:Action>
+      <wsa:RelatesTo>uuid:da226a52-4d00-4950-9828-6bf14a126ed3</wsa:RelatesTo>
+   </env:Header>
+   <env:Body>
+      <query:AdhocQueryResponse status="urn:oasis:names:tc:ebxml-regrep:ResponseStatusType:Success" xmlns:query="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0" xmlns:xds-b="urn:ihe:iti:xds-b:2007" xmlns:rs="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0" xmlns:lcm="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0">
+         <rim:RegistryObjectList>
+            <!--List of extrinsic objects-->
+            <rim:ObjectRef id="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a"/>
+            <rim:ObjectRef id="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f"/>
+            <rim:ObjectRef id="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d"/>
+            <rim:ObjectRef id="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1"/>
+            <rim:ObjectRef id="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead"/>
+            <rim:ObjectRef id="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983"/>
+            <rim:ObjectRef id="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"/>
+            <rim:ObjectRef id="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"/>
+         </rim:RegistryObjectList>
+      </query:AdhocQueryResponse>
+   </env:Body>
+</env:Envelope>

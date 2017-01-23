@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>Z:\SVN1\HIEMockService\HIEServicePackage</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/GRH.IPHR.GRCBase.dll">
+      <publishTime>04/11/2016 17:54:12</publishTime>
+    </File>
+    <File Include="bin/HIEService.dll">
+      <publishTime>08/30/2016 18:42:01</publishTime>
+    </File>
+    <File Include="HIEService.svc">
+      <publishTime>05/16/2016 17:00:21</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/23/2016 21:03:08</publishTime>
+    </File>
+    <File Include="XmlResponseGenerator/XmlResponseTemplates/PDQResponse.xml">
+      <publishTime>05/20/2016 14:19:54</publishTime>
+    </File>
+    <File Include="XmlResponseGenerator/XmlResponseTemplates/PDQSubject.xml">
+      <publishTime>05/20/2016 22:18:19</publishTime>
+    </File>
+    <File Include="XmlResponseGenerator/XmlResponseTemplates/PIXReponse.xml">
+      <publishTime>06/02/2016 20:10:52</publishTime>
+    </File>
+    <File Include="XmlResponseGenerator/XmlResponseTemplates/RetrieveDocumentsTemplates/RDAttachmentDocResponseNode.xml">
+      <publishTime>05/26/2016 16:16:06</publishTime>
+    </File>
+    <File Include="XmlResponseGenerator/XmlResponseTemplates/RetrieveDocumentsTemplates/RDAttachmentRegResponseNodes.xml">
+      <publishTime>05/31/2016 13:21:45</publishTime>
+    </File>
+    <File Include="XmlResponseGenerator/XmlResponseTemplates/RetrieveDocumentsTemplates/RDAttachmentSection.txt">
+      <publishTime>05/26/2016 15:53:57</publishTime>
+    </File>
+    <File Include="XmlResponseGenerator/XmlResponseTemplates/RetrieveDocumentsTemplates/RDFullResponse.txt">
+      <publishTime>05/30/2016 18:40:19</publishTime>
+    </File>
+    <File Include="XmlResponseGenerator/XmlResponseTemplates/RetrieveDocumentsTemplates/RDResponseSection.xml">
+      <publishTime>06/01/2016 15:09:04</publishTime>
+    </File>
+    <File Include="XmlResponseGenerator/XmlResponseTemplates/SQExtrinsicObject.xml">
+      <publishTime>05/21/2016 03:00:18</publishTime>
+    </File>
+    <File Include="XmlResponseGenerator/XmlResponseTemplates/SQResponse.xml">
+      <publishTime>05/21/2016 03:04:35</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

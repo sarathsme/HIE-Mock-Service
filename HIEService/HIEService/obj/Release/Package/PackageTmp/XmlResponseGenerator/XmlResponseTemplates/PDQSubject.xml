@@ -1,0 +1,52 @@
+﻿<subject typeCode="SUBJ" contextConductionInd="false">
+  <registrationEvent classCode="REG" moodCode="EVN">
+    <id nullFlavor="NA"></id>
+    <statusCode code="active"></statusCode>
+    <subject1 typeCode="SBJ">
+      <patient classCode="PAT">
+        <statusCode code="active"></statusCode>
+        <patientPerson classCode="PSN" determinerCode="INSTANCE">
+          <name use="L">
+            <!--<family partType="FAM">MEDENT02Test</family>-->
+            <!--<given partType="GIV">MEDENT02Test M</given>-->
+            <family partType="FAM">##FamilyName##</family>
+            <given partType="GIV">##FirstName##</given>
+            <given partType="GIV">##MiddleName##</given>
+          </name>
+          <!--telecom list-->
+          <administrativeGenderCode code="##GENDER(M/F)##"></administrativeGenderCode>
+          <!--<birthTime value="14020227"></birthTime>-->
+          <birthTime value="##DOB##"></birthTime>
+          <deceasedInd value="false"></deceasedInd>
+          <!--List of Addresses-->
+          <maritalStatusCode code="M" displayName=""></maritalStatusCode>
+          <religiousAffiliationCode code="NON" displayName="NONE"></religiousAffiliationCode>
+          <raceCode code="2106-3" displayName=""></raceCode>
+          <ethnicGroupCode code="2131-1" displayName=""></ethnicGroupCode>
+          <asOtherIDs classCode="CIT">
+            <!--<id root="2.16.840.1.113883.4.1" extension="181-54-4621"></id>-->
+            <id root="2.16.840.1.113883.4.1" extension="##SSN##"></id>
+            <scopingOrganization classCode="ORG" determinerCode="INSTANCE">
+              <id root="2.16.840.1.113883.4.1"></id>
+            </scopingOrganization>
+          </asOtherIDs>
+        </patientPerson>
+        <providerOrganization classCode="ORG" determinerCode="INSTANCE">
+          <id root="2.16.840.1.113883.3.189.1.256"></id>
+          <contactParty classCode="CON"></contactParty>
+        </providerOrganization>
+        <subjectOf1>
+          <queryMatchObservation classCode="OBS" moodCode="EVN">
+            <code code="IHE_PDQ"></code>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="REAL" value="19.00"></value>
+          </queryMatchObservation>
+        </subjectOf1>
+      </patient>
+    </subject1>
+    <custodian typeCode="CST">
+      <assignedEntity classCode="ASSIGNED">
+        <id root="2.16.840.1.113883.3.189.1.256"></id>
+      </assignedEntity>
+    </custodian>
+  </registrationEvent>
+</subject>

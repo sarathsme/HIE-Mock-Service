@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <PRPA_IN201306UV02 xmlns="urn:hl7-org:v3" ITSVersion="XML_1.0">
+      <id root="1.1" extension="C4784764-D1CD-4A53-BBFF-59A6F5B19147"></id>
+      <creationTime value="20160519073314.485-0400"></creationTime>
+      <interactionId root="2.16.840.1.113883.1.6" extension="PRPA_IN201306UV02"></interactionId>
+      <processingCode code="P"></processingCode>
+      <processingModeCode code="T"></processingModeCode>
+      <acceptAckCode code="NE"></acceptAckCode>
+      <receiver typeCode="RCV">
+        <device determinerCode="INSTANCE">
+          <id root="urn:oid:1.1"></id>
+        </device>
+      </receiver>
+      <sender typeCode="SND">
+        <device determinerCode="INSTANCE">
+          <id root="urn:oid:1.1"></id>
+        </device>
+      </sender>
+      <acknowledgement>
+        <typeId root="2.16.840.1.113883.1.6" extension="PRPA_IN201305UV02"></typeId>
+        <typeCode code="AA"></typeCode>
+        <targetMessage>
+          <id root="2.16.840.1.113883.3.454.0" extension="12345"></id>
+        </targetMessage>
+      </acknowledgement>
+      <controlActProcess classCode="CACT" moodCode="EVN">
+        <code code="PRPA_TE201306UV02" codeSystem="2.16.840.1.113883.1.6"></code>
+        <!--Multiple Subject Nodes corresponding to Patient List-->
+        <queryAck>
+          <queryId root="2.16.840.1.113883.3.454.0" extension="-58ac78c0:12847254560:-7fbe"></queryId>
+          <statusCode code="new"></statusCode>
+          <queryResponseCode code="OK"></queryResponseCode>
+          <resultTotalQuantity value="7"></resultTotalQuantity>
+          <resultCurrentQuantity value="7"></resultCurrentQuantity>
+          <resultRemainingQuantity value="0"></resultRemainingQuantity>
+        </queryAck>
+        <queryByParameter>
+          <queryId root="2.16.840.1.113883.3.454.0" extension="-58ac78c0:12847254560:-7fbe"></queryId>
+          <statusCode code="new"></statusCode>
+          <responseModalityCode></responseModalityCode>
+          <responsePriorityCode></responsePriorityCode>
+          <parameterList>
+            <livingSubjectBirthTime>
+              <value value=""></value>
+              <semanticsText></semanticsText>
+            </livingSubjectBirthTime>
+            <livingSubjectId>
+              <value root="2.16.840.1.113883.4.1" extension=""></value>
+              <semanticsText></semanticsText>
+            </livingSubjectId>
+            <livingSubjectId>
+              <value root="" extension="" assigningAuthorityName=""></value>
+              <semanticsText></semanticsText>
+            </livingSubjectId>
+            <livingSubjectName>
+              <value use="">
+                <family partType="FAM">medent02test</family>
+                <given partType="GIV">medent02test</given>
+                <prefix partType="PFX"></prefix>
+                <suffix partType="SFX"></suffix>
+              </value>
+              <semanticsText></semanticsText>
+            </livingSubjectName>
+            <patientAddress>
+              <value>
+                <state partType="STA"></state>
+                <city partType="CTY"></city>
+                <postalCode partType="ZIP"></postalCode>
+                <streetAddressLine partType="SAL"></streetAddressLine>
+              </value>
+              <semanticsText></semanticsText>
+            </patientAddress>
+          </parameterList>
+        </queryByParameter>
+      </controlActProcess>
+    </PRPA_IN201306UV02>
+  </soap:Body>
+</soap:Envelope>

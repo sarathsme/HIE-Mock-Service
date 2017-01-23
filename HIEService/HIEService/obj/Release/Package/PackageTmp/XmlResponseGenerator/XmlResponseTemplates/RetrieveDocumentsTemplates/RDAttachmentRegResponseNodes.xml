@@ -1,0 +1,5 @@
+﻿<rs:RegistryResponse status="urn:ihe:iti:2007:ResponseStatusType:PartialSuccess">
+  <rs:RegistryErrorList highestSeverity="urn:oasis:names:tc:ebxml-regrep:ErrorSeverityType:Error">
+    <rs:RegistryError codeContext="The document associated with the DocumentUniqueId '2.16.840.1.113883.3.189.20150817152523.test' is not available. This could be because the document is not available to the Document Repository '2.16.840.1.113883.3.89.307.200.1.1.2', the requestor is not authorized to access that document or the document is no longer available." errorCode="XDSDocumentUniqueIdError" location="" severity="urn:oasis:names:tc:ebxml-regrep:ErrorSeverityType:Error"></rs:RegistryError>
+  </rs:RegistryErrorList>
+</rs:RegistryResponse>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <PRPA_IN201310UV02 xmlns="urn:hl7-org:v3" ITSVersion="XML_1.0">
+      <id root="1.1" extension="5DEF01C0-37B9-4AA6-BACE-08A1C7DB07B0"></id>
+      <creationTime value="20160602092608.760-0400"></creationTime>
+      <interactionId root="2.16.840.1.113883.1.6" extension="PRPA_IN201310UV02"></interactionId>
+      <processingCode code="P"></processingCode>
+      <processingModeCode code="T"></processingModeCode>
+      <acceptAckCode code="NE"></acceptAckCode>
+      <receiver typeCode="RCV">
+        <device classCode="DEV" determinerCode="INSTANCE">
+          <id root="1.2.840.114350.1.13.99997.2.7788"></id>
+        </device>
+      </receiver>
+      <sender typeCode="SND">
+        <device classCode="DEV" determinerCode="INSTANCE">
+          <id root="1.2.840.114350.1.13.99999.4567"></id>
+        </device>
+      </sender>
+      <acknowledgement>
+        <typeId root="2.16.840.1.113883.1.6" extension="PRPA_IN201309UV02"></typeId>
+        <typeCode code="AA"></typeCode>
+        <targetMessage>
+          <id root="2220c1c4-87ef-11dc-b865-3603d6866807"></id>
+        </targetMessage>
+      </acknowledgement>
+      <controlActProcess classCode="CACT" moodCode="EVN">
+        <code code="PRPA_TE201310UV02" codeSystem="2.16.840.1.113883.1.6"></code>
+        <subject typeCode="SUBJ" contextConductionInd="false">
+          <registrationEvent classCode="REG" moodCode="EVN">
+            <id nullFlavor="NA"></id>
+            <statusCode code="active"></statusCode>
+            <subject1 typeCode="SBJ">
+              <patient classCode="PAT">
+                <id root="2.16.840.1.113883.3.189.1.206" extension="232028" assigningAuthorityName="SH"></id>
+                <statusCode code="active"></statusCode>
+                <patientPerson classCode="PSN" determinerCode="INSTANCE">
+                  <name use="L">
+                    <family partType="FAM">TYSON</family>
+                    <given partType="GIV">PATRICIA A</given>
+                  </name>
+                  <asOtherIDs classCode="CIT">
+                    <id root="2.16.840.1.113883.4.1" extension="198602165"></id>
+                    <scopingOrganization classCode="ORG" determinerCode="INSTANCE">
+                      <id root="2.16.840.1.113883.4.1"></id>
+                    </scopingOrganization>
+                  </asOtherIDs>
+                </patientPerson>
+                <providerOrganization classCode="ORG" determinerCode="INSTANCE">
+                  <id root="2.16.840.1.113883.3.189.1.206"></id>
+                  <contactParty classCode="CON"></contactParty>
+                </providerOrganization>
+              </patient>
+            </subject1>
+            <custodian typeCode="CST">
+              <assignedEntity classCode="ASSIGNED">
+                <id root="2.16.840.1.113883.3.189.1.206"></id>
+              </assignedEntity>
+            </custodian>
+          </registrationEvent>
+        </subject>
+        <queryAck>
+          <queryId root="1.2.840.114350.1.13.99999.4567.34" extension="33452"></queryId>
+          <statusCode code="new"></statusCode>
+          <queryResponseCode code="OK"></queryResponseCode>
+          <resultTotalQuantity value="1"></resultTotalQuantity>
+          <resultCurrentQuantity value="1"></resultCurrentQuantity>
+          <resultRemainingQuantity value="0"></resultRemainingQuantity>
+        </queryAck>
+        <queryByParameter>
+          <queryId root="1.2.840.114350.1.13.99999.4567.34" extension="33452"></queryId>
+          <statusCode code="new"></statusCode>
+          <responsePriorityCode code="I"></responsePriorityCode>
+          <parameterList>
+            <dataSource>
+              <value root="2.16.840.1.113883.3.189.1.206" assigningAuthorityName="SH"></value>
+              <semanticsText>DataSource.id</semanticsText>
+            </dataSource>
+            <patientIdentifier>
+              <value root="2.16.840.1.113883.3.189.1.227" extension="140218154221192"></value>
+              <semanticsText>Patient.Id</semanticsText>
+            </patientIdentifier>
+          </parameterList>
+        </queryByParameter>
+      </controlActProcess>
+    </PRPA_IN201310UV02>
+  </soap:Body>
+</soap:Envelope>

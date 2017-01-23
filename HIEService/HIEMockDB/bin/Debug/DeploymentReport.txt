@@ -1,0 +1,37 @@
+﻿** Warnings
+     The object reference [dbo].[PatientDocuments].[DocumentUniqueID] differs only by case from the object definition
+       [dbo].[PatientDocuments].[DocumentUniqueId].
+     The object reference [dbo].[Patient].[Firstname] differs only by case from the object definition
+       [dbo].[Patient].[FirstName].
+     The object reference [dbo].[Patient].[familyname] differs only by case from the object definition
+       [dbo].[Patient].[FamilyName].
+
+** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Patient] (Table)
+       [dbo].[PatientAddress] (Table)
+       [dbo].[PatientContactNumber] (Table)
+       [dbo].[PatientDocuments] (Table)
+       [dbo].[List] (User-Defined Table Type)
+       [dbo].[StringList] (User-Defined Table Type)
+       Default Constraint on [dbo].[PatientDocuments].[IsDeprecated] (Default Constraint)
+       Foreign Key on [dbo].[PatientAddress] (Foreign Key)
+       Foreign Key on [dbo].[PatientContactNumber] (Foreign Key)
+       Foreign Key on [dbo].[PatientDocuments] (Foreign Key)
+       [dbo].[Proc_GetAddressesForPatientList] (Procedure)
+       [dbo].[Proc_GetContactNumbersForPatientList] (Procedure)
+       [dbo].[Proc_GetDocumentsForUniqueID] (Procedure)
+       [dbo].[Proc_GetDocumentUniqueIDList] (Procedure)
+       [dbo].[Proc_SearchPatientWithNameOrSSN] (Procedure)
+
+** Supporting actions

@@ -1,0 +1,8 @@
+﻿--MIMEBoundaryurn_uuid_48A421395349697E1E1463990281525
+Content-Type: application/xop+xml; charset=UTF-8; type="application/soap+xml"
+Content-Transfer-Encoding: binary
+Content-ID: <0.urn:uuid:48A421395349697E1E1463990281526@apache.org>
+
+##RDResponseSection##
+--MIMEBoundaryurn_uuid_48A421395349697E1E1463990281525
+##RDAttachmentSection##

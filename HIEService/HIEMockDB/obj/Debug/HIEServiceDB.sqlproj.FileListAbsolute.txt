@@ -1,0 +1,9 @@
+Z:\SVN1\HIEMockService\HIEService\HIEMockDB\bin\Debug\HIEServiceDB.dacpac
+Z:\SVN1\HIEMockService\HIEService\HIEMockDB\bin\Debug\HIEMockDB.dll
+Z:\SVN1\HIEMockService\HIEService\HIEMockDB\bin\Debug\HIEMockDB.pdb
+Z:\SVN1\HIEMockService\HIEService\HIEMockDB\obj\Debug\Model.xml
+Z:\SVN1\HIEMockService\HIEService\HIEMockDB\obj\Debug\refactor.xml
+Z:\SVN1\HIEMockService\HIEService\HIEMockDB\obj\Debug\postdeploy.sql
+Z:\SVN1\HIEMockService\HIEService\HIEMockDB\obj\Debug\predeploy.sql
+Z:\SVN1\HIEMockService\HIEService\HIEMockDB\obj\Debug\HIEMockDB.dll
+Z:\SVN1\HIEMockService\HIEService\HIEMockDB\obj\Debug\HIEMockDB.pdb

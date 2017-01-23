@@ -1,0 +1,8 @@
+﻿<xds-b:DocumentResponse xmlns:xds-b="urn:ihe:iti:xds-b:2007">
+  <xds-b:RepositoryUniqueId>2.16.840.1.113883.3.89.307.200.1.1.2</xds-b:RepositoryUniqueId>
+  <xds-b:DocumentUniqueId>2.16.840.1.113883.3.189.20150817152853.776</xds-b:DocumentUniqueId>
+  <xds-b:mimeType>text/xml</xds-b:mimeType>
+  <xds-b:Document>
+    <xop:Include href="cid:1.urn:uuid:48A421395349697E1E1463990281528@apache.org" xmlns:xop="http://www.w3.org/2004/08/xop/include"></xop:Include>
+  </xds-b:Document>
+</xds-b:DocumentResponse>
